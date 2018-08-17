@@ -1,2 +1,2 @@
-const Tracer = require('./Tracer');
+const Tracer = require('./src/Tracer');
 module.exports = Tracer;

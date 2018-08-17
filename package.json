@@ -1,6 +1,6 @@
 {
   "name": "apollo-request-tracer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Request tracing for Apollo Server",
   "main": "index.js",
   "repository": "https://github.com/stephenhandley/apollo-request-tracer",
