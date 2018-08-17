@@ -13,7 +13,8 @@ class BaseTracer {
 
   formatTimers () {
     const output = {};
-    for (const [name, timer] of Object.entries(this.timers)) {
+    for (const name of Object.keys(this.timers)) {
+      const timer = this.timers[name];
       output[name] = timer.format();
     }
     return output;

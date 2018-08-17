@@ -5,7 +5,7 @@ Primary motivation of this lib is tracking cold and warm start performance of Gr
 
 ## Install
 ```
-yarn add apollo-request-tracer@1.0.1
+yarn add apollo-request-tracer@1.0.2
 ```
 
 ## Usage
