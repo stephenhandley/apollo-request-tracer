@@ -3,6 +3,11 @@ Extension for tracing GraphQL query resolution in [ApolloServer](https://github.
 
 Primary motivation of this lib is tracking cold and warm start performance of GraphQL in serverless environments ([AWS Lambda](https://aws.amazon.com/Lambda/serverless), [Google Cloud Functions](https://cloud.google.com/functions/))
 
+## Install
+```
+yarn add apollo-request-tracer@1.0.1
+```
+
 ## Usage
 ```js
 // Create a new tracer
