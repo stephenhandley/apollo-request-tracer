@@ -1,0 +1,13 @@
+{
+  "name": "apollo-request-tracer",
+  "version": "1.0.0",
+  "description": "Request tracing for Apollo Server",
+  "main": "index.js",
+  "repository": "https://github.com/stephenhandley/apollo-request-tracer",
+  "author": "Stephen Handley",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "graphql": "0.13.2"
+  }
+}
