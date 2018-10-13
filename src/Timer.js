@@ -21,7 +21,10 @@ class Timer {
     const {duration} = this;
     const output = {duration};
     for (const attr of ['start', 'end']) {
-      output[attr] = this[attr].toISOString();
+      const val = this[attr];
+      if (val) {
+        output[attr] = val.toISOString();
+      }
     }
     return output;
   }
